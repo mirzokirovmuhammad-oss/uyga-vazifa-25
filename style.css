@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.header1 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.header__p {
+    display: flex;
+    gap: 100px;
+}
+
+.p1:hover {
+    color: #FF7A50;
+}
+
+.header__button {
+    width: 100px;
+    background-color: #FF7A50;
+    color: white;
+    border: none;
+    box-shadow: -5px 5px 5px #FF7A50;
+    border-radius: 2px;
+}
+
+.main__ota {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 300px;
+    margin-top: 100px;
+}
+
+.main__span {
+    color: #FF7A50;
+}
+
+.main__button {
+    width: 100px;
+    background-color: #FF7A50;
+    height: 50px;
+    color: white;
+    border: none;
+    box-shadow: -5px 5px 5px #FF7A50;
+    border-radius: 2px;
+}
+
+.main__img {
+    width: 600px;
+    height: 600px;
+}
+
+.div__span {
+    color: #FF7A50;
+}
+
+.ota {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 300px;
+    margin-top: 100px;
+}
+
+.div__button {
+    background-color: #FF7A50;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: -5px 5px 5px #FF7A50;
+}
+
+.div__h1 {
+    color: #FF7A50;
+}
+
+.ota div {
+    font-family: rubik;
+}
+
+h1,
+p,
+span,
+button {
+    font-family: rubik;
+}
+
+.ota1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.ota2 {
+    padding-left: 50px;
+    display: flex;
+    gap: 100px;
+}
+
+.watch {
+    margin-top: 20px;
+    display: flex;
+}
+
+.button1 {
+    background-color: #FF7A50;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: -5px 5px 5px #FF7A50;
+    margin-left: 50px;
+}
+.box{
+    display: flex;
+}
+.box1{
+    display: flex;
+}
+.box2{
+    color: #FF7A50;
+}
+.ota4{
+    margin-top: 200px;
+    display: flex;
+    gap: 250px;
+}
+footer{
+    margin-top: 200px;
+    text-align: center;
+    background-color: #FF7A50;
+    width: 1170px;
+    height: 312px;
+    margin-left: 175px;
+    color: white;
+    position: relative;
+    border-radius: 20px;
+}
+.footer__h1{
+    padding-top: 59px;
+}
+.footer__input{
+    width: 838px;
+    height: 78px;
+    border-radius: 50px;
+    position: absolute;
+    right: 170px;
+    top: 160px;
+}
+.footer__button{
+    width: 191px;
+    height: 58px;
+    border-radius: 50px;
+    background-color: #FF7A50;
+    position: absolute;
+    color: white;
+    top: 173px;
+    margin-left: 200px;
+}
